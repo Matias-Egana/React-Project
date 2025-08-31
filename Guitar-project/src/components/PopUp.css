@@ -1,0 +1,23 @@
+.popup-cart-added {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  z-index: 9999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 220px;
+}
+
+.popup-cart-added img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+}

@@ -1,0 +1,14 @@
+.footer {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/img/footer.jpg"); /* Imagen ubicada en /public/img/footer.jpg */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
